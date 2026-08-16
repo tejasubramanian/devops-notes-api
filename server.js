@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Home endpoint
 app.get("/", (req, res) => {
-    res.send("Welcome to DevOps Notes API 🚀");
+    res.send("Welcome to DevOps Notes API Version 2🚀");
 });
 
 // Health check endpoint
